@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEase | E-Commerce App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">🛍️ ShopEase</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+
+      <button id="cartBtn">
+        🛒 Cart (<span id="cartCount">0</span>)
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div>
+      <h1>Shop Smart. Shop Easy.</h1>
+
+      <p>Discover trending products at the best prices.</p>
+
+      <a href="#products" class="shop-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="products-section" id="products">
+
+    <h2>Featured Products</h2>
+
+    <div class="products" id="productList">
+    </div>
+
+  </section>
+
+  <!-- Cart Panel -->
+  <div class="cart-panel" id="cartPanel">
+
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+
+      <button id="closeCart">✕</button>
+    </div>
+
+    <div id="cartItems">
+    </div>
+
+    <div class="cart-footer">
+
+      <h3>Total: ₹<span id="total">0</span></h3>
+
+      <button id="checkoutBtn">
+        Proceed to Checkout
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- Background Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Footer -->
+  <footer>
+
+    <h3>🛍️ ShopEase</h3>
+
+    <p>Interactive E-Commerce Web Application</p>
+
+    <p>Developed by Kasa Sri Lakshmi Swetha</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
